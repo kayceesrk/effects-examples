@@ -1,0 +1,4 @@
+(executables
+ (modes native)
+ (names coins)
+ (libraries effppl base owl re lwt))

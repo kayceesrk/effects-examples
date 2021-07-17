@@ -1,0 +1,4 @@
+(executables
+ (modes native)
+ (names autoreg moving_avg)
+ (libraries effppl base owl re lwt))

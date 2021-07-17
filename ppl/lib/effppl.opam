@@ -1,0 +1,23 @@
+opam-version: "2.0"
+name: "EffPPL"
+version: "0.1"
+synopsis: "A DSL for effect-based probabilistic programming"
+description: """
+A Universal Probabilistic Programming Language for OCaml. Produced for a UGRC Computer Science project.
+"""
+maintainer: "Arnhav Datar"
+authors: "cs18b003@smail.iitm.ac.in"
+license: "MIT"
+homepage: "https://github.com/Arnhav-Datar/AlgoDiff"
+dev-repo: "https://github.com/Arnhav-Datar/AlgoDiff"
+
+depends: [ 
+  "ocaml"
+  "owl"
+  "base"
+]
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]

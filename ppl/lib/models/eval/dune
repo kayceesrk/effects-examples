@@ -1,0 +1,4 @@
+(executables
+ (modes native)
+ (names lin2 lin5 lin10 lin20 lin30 lin40)
+ (libraries effppl base owl re lwt))

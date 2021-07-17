@@ -1,0 +1,4 @@
+(executables
+ (modes native)
+ (names truncated missing)
+ (libraries effppl base owl re lwt))

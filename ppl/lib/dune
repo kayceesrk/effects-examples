@@ -1,0 +1,4 @@
+(library
+ (name effppl)
+ (public_name effppl)
+ (libraries owl base owl-plplot))

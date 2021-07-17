@@ -1,0 +1,4 @@
+(executables
+ (modes native)
+ (names normal_sampling beta_sampling exp_sampling chi2_sampling cont_sampling)
+ (libraries effppl base owl re lwt))
